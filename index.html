@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Study Mentor App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+    <h1>🔥 Ruthless Study Mentor</h1>
+    <p class="tagline">No excuses. Only progress.</p>
+
+    <div class="form">
+        <input type="number" id="hours" placeholder="Study hours today">
+        <input type="text" id="topic" placeholder="Main topic studied">
+        <select id="focus">
+            <option value="">Focus level</option>
+            <option value="low">Low</option>
+            <option value="medium">Medium</option>
+            <option value="high">High</option>
+        </select>
+        <textarea id="mistakes" placeholder="Mistakes / distractions / skipped topics"></textarea>
+
+        <button onclick="submitProgress()">Submit Progress</button>
+    </div>
+
+    <div class="mentor-box">
+        <h2>🧠 Mentor Feedback</h2>
+        <p id="mentorMessage">Waiting for your update...</p>
+    </div>
+
+    <div class="summary">
+        <h2>📊 Progress Summary</h2>
+        <p id="summaryText"></p>
+    </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
