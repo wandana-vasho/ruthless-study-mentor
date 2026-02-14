@@ -39,7 +39,7 @@ ruthless-study-mentor/
 
 ## 🌐 Live Demo
 
-👉 https://your-username.github.io/ruthless-study-mentor/
+ site is live at https://wandana-vasho.github.io/ruthless-study-mentor/
 
 *(Replace `user-name` with your GitHub username)*
 
